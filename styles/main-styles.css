@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 1121px;
+
+}
+
+
+
+.main-box-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.top-title {
+    color: #898f99;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    margin: 143px 0 35px 0;
+}
+
+.main-title {
+    color: #0ec8cb;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+}
+
+.discription-title {
+    font-family: "PT Sans";
+    color: #999999;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 30px;
+    width: 515px;
+    margin: 44px 10px 110px 10px;
+
+}
+
+.icon-boxes {
+    height: 420px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.icon-boxes h3 {
+    font-weight: 400;
+    font-size: 21px;
+    text-transform: uppercase;
+
+}
+
+.icon-boxes p {
+    font-family: "PT Sans";
+    color: #777777;
+    line-height: 22px;
+    font-size: 14px;
+    margin: 33px 32px;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 236px;
+    background-color: #f7f7f758;
+    border: 1px solid #ececec74;
+
+}
+
+.box svg {
+    margin: 55px 0;
+}
+
+.box:hover {
+    background-color: #0ec8cb79;
+    cursor: pointer;
+    color: #fff;
+}
+
+.box:hover p {
+    color: #fff;
+}
+
+.box:hover path {
+    fill: #fff;
+}
