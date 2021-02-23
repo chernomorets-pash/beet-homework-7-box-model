@@ -1,4 +1,9 @@
-@import url(//db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular);
+@font-face {
+    font-family: "Fairfax";
+    src: url('../webfonts_Fairfax/Fairfax.ttf.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 * {
     margin: 0;
@@ -6,7 +11,7 @@
 }
 
 body {
-    font-family: PixelarRegularW01-Regular;
+    font-family: "Fairfax";
     display: flex;
     justify-content: center;
 }
